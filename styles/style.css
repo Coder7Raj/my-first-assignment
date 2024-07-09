@@ -199,3 +199,71 @@ img {
   font-weight: 500;
   text-align: center;
 }
+/* section-2 : */
+/* inspiration-section */
+.inspiration-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+}
+.inspiration-video {
+  padding: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  border-radius: 7px;
+}
+/* section-3 :  */
+/* current-target-section */
+.current-target-section {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 15px;
+}
+.tittle-contents {
+  text-align: center;
+}
+.all-target-items {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.target-item {
+  height: 280px;
+  width: 280px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 15px;
+  padding: 10px;
+}
+.target-img {
+  height: 60px;
+  width: 60px;
+}
+.target-item1-background {
+  border-radius: 10px;
+  background: rgba(255, 76, 30, 0.05);
+}
+.target-item2-background {
+  border-radius: 10px;
+  background: rgba(0, 96, 252, 0.08);
+}
+.target-item3-background {
+  border-radius: 10px;
+  background: rgba(255, 223, 0, 0.05);
+}
+.learn-more {
+  color: rgb(15, 15, 30);
+  font-size: 13px;
+  font-weight: 600;
+  text-align: left;
+  text-decoration: underline;
+}
+.current-target-section h1,
+p,
+.all-target-items {
+  margin-top: 15px;
+}
