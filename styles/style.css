@@ -67,3 +67,135 @@ body {
   border-radius: 5px;
   background: rgb(15, 15, 30);
 }
+
+/* banner section */
+.banner-section {
+  height: 600px;
+  padding: 80px 400px;
+  background-image: url(../assets/Hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.banner-container .banner-tittle,
+.banner-description,
+.contact-btn {
+  margin-top: 15px;
+}
+.banner-tittle {
+  color: rgb(15, 15, 30);
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+}
+.banner-description {
+  color: rgba(15, 15, 30, 0.6);
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+}
+.contact-btn {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: rgb(15, 15, 30);
+}
+/* main section */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+/* section-1 : */
+/* full-frame-section */
+.full-frame-section {
+  border-radius: 10px;
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.dev-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 20px;
+  box-shadow: -50px 15px 50px 5px rgba(0, 0, 0, 0.02),
+    50px 15px 50px 5px rgba(0, 0, 0, 0.02);
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.div-tittle {
+  color: rgb(15, 15, 30);
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+}
+.dev-description {
+  color: rgba(15, 15, 30, 0.6);
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+}
+.dev-frame-section {
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 25px 0;
+  box-shadow: -50px 15px 50px 5px rgba(0, 0, 0, 0.02),
+    50px 15px 50px 5px rgba(0, 0, 0, 0.02);
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.dev-frame-contents {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 15px;
+}
+img {
+  height: 250px;
+  width: 250px;
+}
+.dev-img {
+  padding: 5px;
+}
+.frame-tittle {
+  color: rgba(15, 15, 30, 0.8);
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+}
+.frame-description {
+  color: rgba(15, 15, 30, 0.6);
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+}
+.frame-btn {
+  padding: 6px 12px;
+  border: 1px solid rgba(13, 19, 33, 0.3);
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+}
