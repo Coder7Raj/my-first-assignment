@@ -19,10 +19,10 @@ body {
 }
 .download-btn {
   padding: 15px 18px;
-  border-radius: 7px;
+  border-radius: 8px;
   color: rgb(15, 15, 30);
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 600;
   text-align: center;
 }
 /* banner section */
@@ -155,8 +155,9 @@ img {
   text-align: left;
 }
 .frame-btn {
+  color: rgb(15, 15, 30);
   padding: 6px 12px;
-  border: 1px solid rgba(13, 19, 33, 0.3);
+  border: 1px solid rgba(15, 20, 30, 0.3);
   font-size: 15px;
   font-weight: 500;
   text-align: center;
@@ -174,7 +175,10 @@ img {
 .inspiration-video {
   padding: 15px;
   border: 1px solid rgba(0, 0, 0, 0.07);
-  border-radius: 7px;
+  border-radius: 10px;
+}
+.iframe-video {
+  border-radius: 10px;
 }
 /* section-3 :  */
 /* current-target-section */
@@ -225,7 +229,7 @@ img {
 }
 .learn-more {
   color: rgb(15, 15, 30);
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 600;
   text-align: left;
   text-decoration: underline;
@@ -285,7 +289,7 @@ img {
 .description {
   color: rgba(15, 15, 30, 0.6);
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 a {
